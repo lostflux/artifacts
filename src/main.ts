@@ -5,7 +5,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import routes from 'pages-generated'
 
-import App from './App.vue'
+import App from './app.vue'
 
 const app = createApp(App)
 const router = createRouter({
