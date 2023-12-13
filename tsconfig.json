@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "ESNext",
+    "target": "es2016",
+    "lib": ["DOM", "ESNext"],
+    "strict": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "types": [
+      "vite-plugin-pages/client"
+    ],
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "paths": {
+      "/~/*": ["src/*"]
+    }
+  },
+  "exclude": ["dist", "node_modules"]
+}
